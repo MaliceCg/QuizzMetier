@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.question-group {
+    margin-bottom: 30px;
+}
+
+.question-group h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+label {
+    display: inline-block; /* Afficher le label en ligne */
+    margin-bottom: 10px;
+    width: 80%; /* Pourcentage pour aligner les inputs correctement */
+}
+
+label input[type="number"] {
+    width: 15%; /* Largeur de l'input */
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: 10px; /* Marge à gauche pour l'espace entre le label et l'input */
+}
+
+button[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}

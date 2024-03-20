@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz de Carrière</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Quizz Métier</h1>
+	<p>Classez les énoncés suivants du préféré (1) au moins préféré (6)</p>
+<form id="careerQuiz">
+    <!-- Pour chaque groupe, répétez ce bloc en ajustant les questions et en s'assurant que l'id et le name correspondent à A, B, C, etc. -->
+    <!-- Groupe 1 -->
+    <div class="question-group" id="group1">
+        <h2>Groupe 1</h2>
+        <label for="A1">A. Vous êtes à l'aise à l'idée d'avoir des responsabilités et vous aimez prendre des décisions</label>
+        <input type="number" id="A1" name="A" min="1" max="6" required>
+
+        <label for="B1">B. Vous aimez réfléchir à la conception d'une application et lui faire prendre vie</label>
+        <input type="number" id="B1" name="B" min="1" max="6" required>
+
+        <label for="C1">C. Vous mettez en place des méthodes de déploiement efficaces dès le début de votre projet</label>
+        <input type="number" id="C1" name="C" min="1" max="6" required>
+
+        <label for="D1">D. Vous aimez rédiger des rapports clairs et précis pour mettre en avant votre projet</label>
+        <input type="number" id="D1" name="D" min="1" max="6" required>
+
+        <label for="E1">E. Vous aimez chercher des réponses à vos questions via des données</label>
+        <input type="number" id="E1" name="E" min="1" max="6" required>
+
+        <label for="F1">F. Vous préférez réaliser des business models pour vos applications plutôt que de les créer</label>
+        <input type="number" id="F1" name="F" min="1" max="6" required>
+    </div>
+
+    <div class="question-group" id="group2">
+        <h2>Groupe 2</h2>
+        <label for="A2">A. Vous êtes à l'aise avec la gestion de budget et la planification de projets.</label>
+        <input type="number" id="A2" name="A" min="1" max="6" required>
+
+        <label for="B2">B. Vous avez une bonne connaissance des méthodologies Agile (Scrum, Kanban, etc.).</label>
+        <input type="number" id="B2" name="B" min="1" max="6" required>
+
+        <label for="C2">C. Vous êtes créatif et vous aimez résoudre des problèmes techniques complexes.</label>
+        <input type="number" id="C2" name="C" min="1" max="6" required>
+
+        <label for="D2">D. Vous êtes à l'aise avec la gestion de réseaux et la sécurité informatique.</label>
+        <input type="number" id="D2" name="D" min="1" max="6" required>
+
+        <label for="E2">E. Vous avez une bonne connaissance des normes et réglementations (RGPD, ISO 27001, etc.).</label>
+        <input type="number" id="E2" name="E" min="1" max="6" required>
+
+        <label for="F2">F. Vous avez une bonne connaissance des langages de programmation (Python, R, etc.).</label>
+        <input type="number" id="F2" name="F" min="1" max="6" required>
+    </div>
+
+    <!-- Groupe 3 -->
+    <div class="question-group" id="group3">
+        <h2>Groupe 3</h2>
+        <label for="A3">A. Vous êtes un bon leader et vous savez écouter activement vos collaborateurs.</label>
+        <input type="number" id="A3" name="A" min="1" max="6" required>
+
+        <label for="B3">B. Vous savez travailler en équipe et vous êtes capable de résoudre des problèmes ensemble.</label>
+        <input type="number" id="B3" name="B" min="1" max="6" required>
+
+        <label for="C3">C. Vous êtes capable d'apprendre rapidement de nouveaux langages et technologies.</label>
+        <input type="number" id="C3" name="C" min="1" max="6" required>
+
+        <label for="D3">D. Vous êtes capable de gérer des situations d'urgence et de travailler sous pression.</label>
+        <input type="number" id="D3" name="D" min="1" max="6" required>
+
+        <label for="E3">E. Vous savez convaincre et négocier efficacement.</label>
+        <input type="number" id="E3" name="E" min="1" max="6" required>
+
+        <label for="F3">F. Vous savez expliquer des concepts complexes de manière simple et claire.</label>
+        <input type="number" id="F3" name="F" min="1" max="6" required>
+    </div>
+
+     <!-- Groupe 4 -->
+     <div class="question-group" id="group4">
+        <h2>Groupe 4</h2>
+        <label for="A4">A. Vous avez une expérience en gestion de projet et en développement logiciel.</label>
+        <input type="number" id="A4" name="A" min="1" max="6" required>
+
+        <label for="B4">B. Vous avez une expérience en développement web et mobile (HTML, CSS, JavaScript, React, Angular, etc.).</label>
+        <input type="number" id="B4" name="B" min="1" max="6" required>
+
+        <label for="C4">C. Vous avez une expérience en administration système (Windows, Linux) et en gestion de réseaux.</label>
+        <input type="number" id="C4" name="C" min="1" max="6" required>
+
+        <label for="D4">D. Vous avez une expérience en sécurité informatique et en audit de systèmes d'information.</label>
+        <input type="number" id="D4" name="D" min="1" max="6" required>
+
+        <label for="E4">E. Vous avez une expérience en science des données et en intelligence artificielle.</label>
+        <input type="number" id="E4" name="E" min="1" max="6" required>
+
+        <label for="F4">F. Vous avez une expérience en marketing digital et en e-commerce.</label>
+        <input type="number" id="F4" name="F" min="1" max="6" required>
+    </div>
+
+     <!-- Groupe 5 -->
+     <div class="question-group" id="group5">
+        <h2>Groupe 5</h2>
+        <label for="A5">A. Vous êtes passionné par les nouvelles technologies et vous aimez apprendre en continu.</label>
+        <input type="number" id="A5" name="A" min="1" max="6" required>
+
+        <label for="B5">B. Vous êtes rigoureux et organisé dans votre travail.</label>
+        <input type="number" id="B5" name="B" min="1" max="6" required>
+
+        <label for="C5">C. Vous êtes curieux et vous aimez explorer de nouvelles idées.</label>
+        <input type="number" id="C5" name="C" min="1" max="6" required>
+
+        <label for="D5">D. Vous êtes autonome et vous savez prendre des initiatives.</label>
+        <input type="number" id="D5" name="D" min="1" max="6" required>
+
+        <label for="E5">E. Vous êtes persévérant et vous savez faire preuve de résilience face aux obstacles.</label>
+        <input type="number" id="E5" name="E" min="1" max="6" required>
+
+        <label for="F5">F. Vous êtes flexible et vous savez vous adapter aux changements.</label>
+        <input type="number" id="F5" name="F" min="1" max="6" required>
+    </div>
+
+     <!-- Groupe 6 -->
+     <div class="question-group" id="group6">
+        <h2>Groupe 6</h2>
+        <label for="A6">A. Vous avez une bonne capacité d'analyse et de synthèse.</label>
+        <input type="number" id="A6" name="A" min="1" max="6" required>
+
+        <label for="B6">B. Vous êtes capable de travailler sur plusieurs projets en même temps.</label>
+        <input type="number" id="B6" name="B" min="1" max="6" required>
+
+        <label for="C6">C. Vous êtes capable de travailler dans des environnements complexes et incertains.</label>
+        <input type="number" id="C6" name="C" min="1" max="6" required>
+
+        <label for="D6">D. Vous êtes capable de travailler avec des données volumineuses et complexes.</label>
+        <input type="number" id="D6" name="D" min="1" max="6" required>
+
+        <label for="E6">E. Vous êtes capable de travailler avec des interlocuteurs de différents niveaux hiérarchiques.</label>
+        <input type="number" id="E6" name="E" min="1" max="6" required>
+
+        <label for="F6">F. Vous êtes capable de travailler avec des interlocuteurs de cultures différentes.</label>
+        <input type="number" id="F6" name="F" min="1" max="6" required>
+    </div>
+    <!-- Groupe 7 -->
+    <div class="question-group" id="group7">
+        <h2>Groupe 7</h2>
+        <label for="A7">A. Vous avez une bonne connaissance des outils de gestion de projet (Trello, Asana, etc.).</label>
+        <input type="number" id="A7" name="A" min="1" max="6" required>
+
+        <label for="B7">B. Vous avez une bonne connaissance des outils de développement (Git, GitHub, etc.).</label>
+        <input type="number" id="B7" name="B" min="1" max="6" required>
+
+        <label for="C7">C. Vous avez une bonne connaissance des outils de test et de validation (Selenium, JMeter, etc.).</label>
+        <input type="number" id="C7" name="C" min="1" max="6" required>
+
+        <label for="D7">D. Vous avez une bonne connaissance des outils de surveillance et de monitoring (Nagios, Zabbix, etc.).</label>
+        <input type="number" id="D7" name="D" min="1" max="6" required>
+
+        <label for="E7">E. Vous avez une bonne connaissance des outils de visualisation de données (Tableau, Power BI, etc.).</label>
+        <input type="number" id="E7" name="E" min="1" max="6" required>
+
+        <label for="F7">F. Vous avez une bonne connaissance des outils de collaboration et de communication (Slack, Microsoft Teams, etc.).</label>
+        <input type="number" id="F7" name="F" min="1" max="6" required>
+    </div>
+    <!-- Groupe 8 -->
+    <div class="question-group" id="group8">
+        <h2>Groupe 8</h2>
+        <label for="A8">A. Vous êtes capable de gérer efficacement votre temps et vos priorités.</label>
+        <input type="number" id="A8" name="A" min="1" max="6" required>
+
+        <label for="B8">B. Vous êtes capable de gérer votre stress et vos émotions.</label>
+        <input type="number" id="B8" name="B" min="1" max="6" required>
+
+        <label for="C8">C. Vous êtes capable de gérer les conflits et les désaccords.</label>
+        <input type="number" id="C8" name="C" min="1" max="6" required>
+
+        <label for="D8">D. Vous êtes capable de gérer les attentes et les exigences de vos clients et de vos collaborateurs.</label>
+        <input type="number" id="D8" name="D" min="1" max="6" required>
+
+        <label for="E8">E. Vous êtes capable de gérer les risques et les incertitudes.</label>
+        <input type="number" id="E8" name="E" min="1" max="6" required>
+
+        <label for="F8">F. Vous êtes capable de gérer les changements et les transitions.</label>
+        <input type="number" id="F8" name="F" min="1" max="6" required>
+    </div>
+
+     <!-- Groupe 9 -->
+     <div class="question-group" id="group9">
+        <h2>Groupe 9</h2>
+        <label for="A9">A. Vous êtes capable de communiquer efficacement à l'oral et à l'écrit.</label>
+        <input type="number" id="A9" name="A" min="1" max="6" required>
+
+        <label for="B9">B. Vous êtes capable de présenter des idées et des projets de manière convaincante.</label>
+        <input type="number" id="B9" name="B" min="1" max="6" required>
+
+        <label for="C9">C. Vous êtes capable de négocier et de convaincre vos interlocuteurs.</label>
+        <input type="number" id="C9" name="C" min="1" max="6" required>
+
+        <label for="D9">D. Vous êtes capable de travailler en équipe avec des personnes de différents horizons et compétences.</label>
+        <input type="number" id="D9" name="D" min="1" max="6" required>
+
+        <label for="E9">E. Vous êtes capable de travailler en réseau et de développer des partenariats.</label>
+        <input type="number" id="E9" name="E" min="1" max="6" required>
+
+        <label for="F9">F. Vous êtes capable de travailler en mode projet et de collaborer avec différentes parties prenantes.</label>
+        <input type="number" id="F9" name="F" min="1" max="6" required>
+    </div>
+
+    <!-- Groupe 10 -->
+    <div class="question-group" id="group10">
+        <h2>Groupe 10</h2>
+        <label for="A10">A. Vous êtes capable de prendre du recul et de réfléchir de manière stratégique.</label>
+        <input type="number" id="A10" name="A" min="1" max="6" required>
+
+        <label for="B10">B. Vous êtes capable de prendre des décisions éclairées et de les mettre en œuvre.</label>
+        <input type="number" id="B10" name="B" min="1" max="6" required>
+
+        <label for="C10">C. Vous êtes capable de résoudre des problèmes complexes et de trouver des solutions innovantes.</label>
+        <input type="number" id="C10" name="C" min="1" max="6" required>
+
+        <label for="D10">D. Vous êtes capable de gérer des projets de bout en bout et de les livrer dans les délais impartis.</label>
+        <input type="number" id="D10" name="D" min="1" max="6" required>
+
+        <label for="E10">E. Vous êtes capable de gérer des budgets et des ressources.</label>
+        <input type="number" id="E10" name="E" min="1" max="6" required>
+
+        <label for="F10">F. Vous êtes capable de gérer des équipes et de les faire progresser.</label>
+        <input type="number" id="F10" name="F" min="1" max="6" required>
+    </div>
+
+    <!-- Groupe 11 -->
+<div class="question-group" id="group11">
+    <h2>Groupe 11</h2>
+    <label for="A11">A. Vous êtes capable de vous adapter aux évolutions technologiques et aux tendances du marché.</label>
+    <input type="number" id="A11" name="A" min="1" max="6" required>
+
+    <label for="B11">B. Vous êtes capable de vous former en continu et de développer de nouvelles compétences.</label>
+    <input type="number" id="B11" name="B" min="1" max="6" required>
+
+    <label for="C11">C. Vous êtes capable de vous remettre en question et de vous améliorer en continu.</label>
+    <input type="number" id="C11" name="C" min="1" max="6" required>
+
+    <label for="D11">D. Vous êtes capable de vous impliquer dans des projets innovants et de contribuer à leur réussite.</label>
+    <input type="number" id="D11" name="D" min="1" max="6" required>
+
+    <label for="E11">E. Vous êtes capable de vous engager dans des projets à long terme et de les mener à bien.</label>
+    <input type="number" id="E11" name="E" min="1" max="6" required>
+
+    <label for="F11">F. Vous êtes capable de vous investir dans des projets à impact social et environnemental.</label>
+    <input type="number" id="F11" name="F" min="1" max="6" required>
+</div>
+
+
+<!-- Groupe 12 -->
+
+    <div class="question-group" id="group12">
+        <h2>Groupe 12</h2>
+        <label for="A12">A. Vous êtes capable de travailler dans des environnements internationaux et multiculturels.</label>
+        <input type="number" id="A12" name="A" min="1" max="6" required>
+
+        <label for="B12">B. Vous êtes capable de travailler dans des environnements agiles et flexibles.</label>
+        <input type="number" id="B12" name="B" min="1" max="6" required>
+
+        <label for="C12">C. Vous êtes capable de travailler dans des environnements exigeants et à forte pression.</label>
+        <input type="number" id="C12" name="C" min="1" max="6" required>
+
+        <label for="D12">D. Vous êtes capable de travailler dans des environnements réglementés et soumis à des normes strictes.</label>
+        <input type="number" id="D12" name="D" min="1" max="6" required>
+
+        <label for="E12">E. Vous êtes capable de travailler dans des environnements en constante évolution et en transformation.</label>
+        <input type="number" id="E12" name="E" min="1" max="6" required>
+
+        <label for="F12">F. Vous êtes capable de travailler dans des environnements en croissance rapide et en expansion.</label>
+        <input type="number" id="F12" name="F" min="1" max="6" required>
+    </div>
+
+    <button type="submit">Soumettre</button>
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
